@@ -18,7 +18,7 @@ int main(int argc, char** argv) {
     
     int64_t dst_ch_layout = AV_CH_LAYOUT_STEREO;
     int dst_rate = 44100;
-    enum AVSampleFormat dst_sample_fmt = AV_SAMPLE_FMT_FLT;
+    enum AVSampleFormat dst_sample_fmt = AV_SAMPLE_FMT_FLTP;
 
     int ret;
 
